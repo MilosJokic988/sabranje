@@ -8,7 +8,11 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <h1 className="logo">САБРАЊЕ</h1>
+        <div className="brand">
+  <img src="/logo.PNG" alt="Сабрање" className="brand-logo" />
+  <h1 className="logo">САБРАЊЕ</h1>
+</div>
+        
 
         {/* Desktop menu */}
         <nav className="desktop-nav">

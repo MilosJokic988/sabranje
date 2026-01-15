@@ -134,3 +134,17 @@
     transform: translateY(0);
   }
 }
+@media (max-width: 768px) {
+  .home {
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}

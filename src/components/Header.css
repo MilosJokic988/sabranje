@@ -28,6 +28,17 @@
   color: var(--accent-gold);
   letter-spacing: 1px;
 }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-logo {
+  height: 40px;   /* promeni po ukusu */
+  width: auto;
+  opacity: 0.95;
+}
 /* hamburger button */
 .hamburger {
   display: none;
