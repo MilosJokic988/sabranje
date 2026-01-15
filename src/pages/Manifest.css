@@ -1,0 +1,28 @@
+.manifest-page {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+  background: #0f0f0f;
+  min-height: calc(100vh - 120px);
+  animation: fadeIntro 1s ease forwards;
+}
+
+.manifest-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.manifest-page p {
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.manifest-page .strong {
+  font-weight: 600;
+  color: var(--accent, #b71c1c);
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+}

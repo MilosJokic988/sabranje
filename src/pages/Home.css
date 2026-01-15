@@ -1,0 +1,136 @@
+/* Hero sekcija */
+.home {
+  padding: 3rem 2rem;
+  min-height: calc(100vh - 120px);
+  animation: fadeIn 0.8s ease forwards;
+  
+}
+
+.home-inner {
+  max-width: 750px;
+  text-align: center;
+  margin: 0 auto 2.5rem auto;
+  opacity: 0;
+  animation: fadeIntro 1s ease forwards;
+}
+
+.home h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.home p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--accent, #b71c1c); /* bordo */
+  margin-top: 1.2rem;
+  font-size: 1.15rem;
+}
+
+/* Najnovije epizode */
+.latest {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.latest h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.episodes-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+/* Najnoviji tekstovi */
+.latest-articles {
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+}
+
+.latest-articles h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.articles-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+/* Manifest teaser */
+.manifest-teaser {
+  max-width: 900px;
+  margin: 4rem auto 0 auto;
+  padding: 2rem 1.5rem;
+  background: #111;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  animation: fadeIntro 1s ease forwards;
+}
+
+.manifest-teaser h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.manifest-teaser p {
+  font-size: 1.05rem;
+  opacity: 0.85;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: var(--accent, #b71c1c);
+  transition: opacity 0.2s ease;
+}
+
+.read-more:hover {
+  opacity: 0.7;
+}
+.see-all-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.see-all {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.see-all:hover {
+  opacity: 0.8;
+}
+
+/* Animacije */
+@keyframes fadeIntro {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
