@@ -6,8 +6,8 @@ export default function Podcast() {
   return (
     <section className="podcast-page">
       <div className="podcast-header">
-        <h2>Podcast Sabrаnje</h2>
-        <p>Slušaj razgovore koji sabiraju, a ne dele.</p>
+        <h2>Подкаст Сабрање</h2>
+        <p>Слушај разговоре који сабирају,а не деле.</p>
       </div>
 
       <div className="podcast-grid">

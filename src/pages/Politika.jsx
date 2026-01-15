@@ -7,13 +7,13 @@ export default function Politika() {
 
   return (
     <section className="category-page">
-      <h2>Politika</h2>
+      <h2>Политика</h2>
 
       <div className="articles-grid">
         {filtered.length > 0 ? (
           filtered.map((a) => <ArticleCard key={a.id} article={a} />)
         ) : (
-          <p className="empty">Još nema objava.</p>
+          <p className="empty">Још нема објава.</p>
         )}
       </div>
     </section>
