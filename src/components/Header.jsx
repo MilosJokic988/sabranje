@@ -9,7 +9,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="brand">
-  <img src="/logo.PNG" alt="Сабрање" className="brand-logo" />
+  <img src="/logo.png" alt="Сабрање" className="brand-logo" />
   <h1 className="logo">САБРАЊЕ</h1>
 </div>
         
